@@ -1,0 +1,50 @@
+body {
+  background: white;
+}
+
+body .container {
+  max-width: 400px;
+  background: teal;
+  padding: 50px;
+  margin-top: 25px;
+  border-radius: 40px;
+}
+
+@media (max-width: 425px) {
+  body .container {
+    width: 90%;
+  }
+}
+
+header h1 {
+  color: white;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 20px;
+  color: white;
+  background: #20a8a8;
+}
+
+input[type=text] {
+  background-color: white;
+  border: none;
+  background: white;
+  max-width: 400px;
+}
+
+.todos li {
+  background: #20a8a8;
+}
+
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+/*# sourceMappingURL=styles.css.map */
