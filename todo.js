@@ -42,6 +42,6 @@ const filterTodos = (userInput) => {
 };
 
 search.addEventListener('keyup', () => {
-    const userInput = search.value.trim();
+    const userInput = search.value.toLowerCase().trim();
     filterTodos(userInput);
 });
